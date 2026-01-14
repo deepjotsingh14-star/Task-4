@@ -1,34 +1,9 @@
 import React from 'react'
-import Nav from "./Nav_Bar.jsx";
+import Nav from "./Nav_bar.jsx";
 const Hero_Section = () => {
     return (
         <div className='flex  lg:px-8  flex-col  pb-15 overflow-hidden'>
             <Nav />
-
-
-
-
-            {/* <div className='text-[7vw] text-center'>
-                          <p>Unleash Your </p>
-                        <p className=' flex items-center gap-4'>Brand  <img src="/images/img2.png" className=' w-[10vw]' alt="" />
-                            with Our
-                        </p>
-                           <div className="relative hidden lg:block h-[17vw] w-[12vw] rotate-[-10deg] rounded-b-full overflow-hidden">
-                                <img
-                                    src="/images/post.png"
-                                    className="h-full w-full object-cover"
-                                    alt=""
-                                />
-                            </div>
-                             <div className="relative hidden lg:block h-[17vw] w-[12vw] rotate-[10deg] rounded-t-full overflow-hidden">
-                                <img
-                                    src="https://i.pinimg.com/1200x/e3/98/03/e398030d0010c4d2de89aca6d42901ef.jpg"
-                                    className="h-full w-full object-cover"
-                                    alt=""
-                                />
-                            </div>
-                        <p><span>Magico</span> Desgin</p>
-                      </div> */}
             <div className='w-full py-[3vw] flex flex-col-reverse lg:inline relative  font-[pop]  '>
 
                 <div className='lg:absolute gap-2 text-[3vw] lg:text-[1.2vw]   flex flex-col text-white right-0  w-full items-end  '>
